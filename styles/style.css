@@ -14,14 +14,14 @@ body {
 /*Header &  navigation section --------------*/
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
 }
 
 header {
     height: 100vh;
-    background-image: url(../images/cloud.png);
+    background-image: url('../images/cloud.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, .5);
@@ -49,4 +49,11 @@ nav {
     color: #fff;
     font-weight: 600;
     padding: 15px 10px;
+}
+
+/* --------------banner section ---------------*/
+
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
